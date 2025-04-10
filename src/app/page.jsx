@@ -12,6 +12,7 @@ export default function Home() {
           </Typography>
         </CardBody>
         <Link href={rutaTimer} className="text-center"><Typography className="font-bold text-white" variant="h3"> Ir a Contador</Typography></Link>
+        <Link href="/useEffect"><Typography> Ir a useEffect</Typography></Link>
       </Card>
     </main>
   );
